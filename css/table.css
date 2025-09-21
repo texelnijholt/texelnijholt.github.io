@@ -1,0 +1,18 @@
+section#beschikbaar body {
+  font: normal medium/1.4 sans-serif;
+}
+section#beschikbaar table {
+  border-collapse: collapse;
+  width: 100%;
+}
+section#beschikbaar td {
+  padding: 0.25rem;
+  text-align: left;
+}
+section#beschikbaar tbody tr:nth-child(odd) {
+  background: #eee;
+}
+section#contact p {
+  list-style-type: none;
+  line-height: 0.8;
+}
