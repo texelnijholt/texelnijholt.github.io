@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Vakantie Texel">
+  <meta name="description" content="Vakantiebungalow Iduna en Ostara op Texel, bij De Koog nabij het strand. Iduna (6 personen) en Ostara (4 personen)">
   <meta name="author" content="Nijholt">
   <meta name="generator" content="Hugo 0.121.1">
   <title>Iduna-Ostara</title>
@@ -179,7 +179,7 @@ Centraal op het eiland gelegen op het bungalowpark &rsquo;t Hoogelandt aan de Ca
               <h3 class="section-subheading text-muted">Californiëweg 6</h3>
               Bungalow Iduna is ingericht voor 6 personen. Voorzien van woonkamer met open keuken. Drie slaapkamers. Waarvan één met een tweepersoons bed, één met twee eenpersoonsbedden en één met een stapelbed. Badkamer met ligbad/douche en toilet. Wifi aanwezig.
               <br><br>
-              <a href="https://www.google.com/maps/place/Californi%C3%ABweg&#43;6,&#43;1796&#43;PL&#43;De&#43;Koog/" class=“btn btn-main”> Bekijk op Google Maps (U verlaat deze website) </a>
+              <a href="https://www.google.com/maps/place/Californi%C3%ABweg&#43;6,&#43;1796&#43;PL&#43;De&#43;Koog/" class="btn btn-main"> Bekijk op Google Maps (U verlaat deze website) </a>
           </div>
           
           <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -207,7 +207,7 @@ Centraal op het eiland gelegen op het bungalowpark &rsquo;t Hoogelandt aan de Ca
                 <h3 class="section-subheading text-muted">Californiëweg 72</h3>
                 Ingericht voor 4 personen. Voorzien van woonkamer met open keuken. Twee slaapkamers. Waarvan één met een tweepersoons bed en één met twee losse bedden. Badkamer met douche en toilet. Het hele huis is voorzien van vloerverwarming. Wifi aanwezig.
                 <br><br>
-                <a href="https://www.google.com/maps/place/Californi%c3%abweg&#43;72,&#43;1796&#43;PM&#43;De&#43;Koog/" class=“btn btn-main”> Bekijk op Google Maps (U verlaat deze website) </a>
+                <a href="https://www.google.com/maps/place/Californi%c3%abweg&#43;72,&#43;1796&#43;PM&#43;De&#43;Koog/" class="btn btn-main"> Bekijk op Google Maps (U verlaat deze website) </a>
             </div>
             
             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
@@ -732,7 +732,7 @@ Tel. 023 5614005</h3>
               emailjs.init("user_kYILbQyUyvBm2H9G6ahGk");
             })();
           </script>
-          <button  id="butt2" enabled = "true" type="submit" value="Submit" class="btn btn-xl" onclick="sendMail()">Stuur bericht</button>
+		  <button  id="butt2" enabled = "true" type="button" value="Submit" class="btn btn-xl" onclick="sendMail()">Stuur bericht</button>
           <script>
               function sendMail() {  
                 var vName = document.getElementById('name').value;
@@ -740,7 +740,9 @@ Tel. 023 5614005</h3>
                 var vMessage = document.getElementById('message').value;
                 emailjs.send("default_service","texel",{name: vName, email: vEmail, message: vMessage });
                 document.getElementById('name').value = "";
-                alert("Bericht verzonden!");
+				document.getElementById('email').value = "";
+				document.getElementById('message').value = "";
+                alert("Bericht verstuurd!");
                 }
           </script>
         </form>
@@ -812,7 +814,7 @@ Tel. 023 5614005</h3>
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
               <h2>Ostara</h2>
-              <p class="item-intro text-muted">5 personen - 2 slaapkamers</p>
+              <p class="item-intro text-muted">4 personen - 2 slaapkamers</p>
 
               
               
